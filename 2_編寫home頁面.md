@@ -7,3 +7,10 @@
 
 就會將整個檔案資料夾匯入 VS code 中
 
+## home.page.html
+
+在 home.page.html 中，我們的 coding 方式就跟一般我們寫 html 一樣\
+但ionic不同的地方是，他有自己的一些[UI Components](https://ionicframework.com/docs/components)可以使用\
+因此我們可以快速的完成許多功能
+
+
