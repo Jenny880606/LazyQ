@@ -24,6 +24,9 @@ ionic 會在你的瀏覽器上顯示你現在這份APP的樣子
     cd [<name>]
     ionic serve
 
+\
+\
+參考資料 : [Jonny Huang 的學習筆記](https://jonny-huang.github.io/ionic/training/01_creating_first_project/)
 
 > 如何開始 coding ?
 
