@@ -34,14 +34,14 @@ LazyQ+的功能有:
 
 在 LazyQ+ 中，我們是使用 *sidemenu* 這個版型作為基礎來修改
 
-> 如何開始coding?
+> 如何開始 coding ?
 
 在這裡我們使用 [VS code](https://code.visualstudio.com/) 來做編寫程式\
-在cmd輸入
+在cmd中輸入
 
     code .
 
 就會將整個檔案資料夾匯入 VS code 中
 
 
-
+## 
