@@ -34,20 +34,81 @@
         <ion-slide>
           <h1>Slide 2</h1>
         </ion-slide>
-
-        <ion-slide>
-          <h1>Slide 3</h1>
-        </ion-slide>
     </ion-slides>
 
 我們只要這份 code 放到我們需要的地方，便可以直接使用\
 \
 ionic UI Components 有個好處，每個 UI 都可以設定各種屬性和功能，來更加符合自己的需求\
-**Properties** : 可以設定各種 ionic 定義的功能，可以直接加在 **< >** 中\
+\
+**Properties** : 可以設定各種 ionic 定義的屬性，可以直接加在 **< >** 中\
 Ex. 在 ion-slides 中加入 pager 屬性
-
     
     <ion-slides pager="true">
+
+\
+**Events** : 可以設定各種 ionic 定義的觸發事件，連動.ts 的 function ，也是可以直接加在 **< >** 中\
+Ex.  在 ion-slides 中加入 ionSlideDidChange Events
+
+     <ion-slides (ionSlideDidChange)="funtion()">
+
+ 
+
+> **List & Item**
+
+在這裡我們使用 [ion-list](https://ionicframework.com/docs/api/list) 和 [ion-item](https://ionicframework.com/docs/api/item) 來幫助我們列出每一台機台資訊
+
+    <ion-list>
+        <ion-item>
+            <ion-label>1F-A</ion-label>
+        </ion-item>
+        <ion-item>
+            <ion-label>1F-B</ion-label>
+        </ion-item>
+        <ion-item>
+            <ion-label>2F-A</ion-label>
+        </ion-item>
+        <ion-item>
+            <ion-label>2F-B</ion-label>
+        </ion-item>
+        <ion-item>
+            <ion-label>3F-A</ion-label>
+        </ion-item>
+        <ion-item>
+            <ion-label>3F-B</ion-label>
+        </ion-item>
+    </ion-list>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
