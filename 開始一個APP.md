@@ -27,13 +27,3 @@ ionic 會在你的瀏覽器上顯示你現在這份APP的樣子
 \
 \
 參考資料 : [Jonny Huang 的學習筆記](https://jonny-huang.github.io/ionic/training/01_creating_first_project/)
-
-> 如何開始 coding ?
-
-在這裡我們使用 [VS code](https://code.visualstudio.com/) 來做編寫程式\
-在cmd中輸入
-
-    code .
-
-就會將整個檔案資料夾匯入 VS code 中
-
