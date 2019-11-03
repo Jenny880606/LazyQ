@@ -40,7 +40,15 @@
         </ion-slide>
     </ion-slides>
 
-我們只要這份 code 放到我們需要的地方，便可以直接使用
+我們只要這份 code 放到我們需要的地方，便可以直接使用\
+\
+ionic UI Components 有個好處，每個 UI 都可以設定各種屬性和功能，來更加符合自己的需求\
+**Properties** : 可以設定各種 ionic 定義的功能，可以直接加在 **< >** 中\
+Ex. 在 ion-slides 中加入 pager 屬性
+
+    
+    <ion-slides pager="true">
+
 
 
 
