@@ -25,7 +25,7 @@ ionic 中 [ion-input](https://ionicframework.com/docs/api/input) 這個 UI 提�
 
 > **Sarch**
 
-為了可以方便使用者快速的搜尋自己想要的機台，我們使用了 [ion-searchbar](https://ionicframework.com/docs/api/searchbar) 來提供用戶搜索功能\
+為了可以方便使用者快速的搜尋自己想要的機台，我們使用了 [ion-searchbar](https://ionicframework.com/docs/api/searchbar) 來提供用戶搜索功能
 
 <img src="教程圖片/1572868109977.jpg" width="300px" height="50px">
 
