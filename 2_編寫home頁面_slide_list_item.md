@@ -104,8 +104,19 @@ Ex.  在 ion-slides 中加入 ionSlideDidChange Events
 
 <img src="教程圖片/1572841236822.jpg" width="300px" height="534px">
 
+\
+在這裡，我們 **ion-list** 的長度是隨著它所包的內容物而增長\
+如果我們幫它設定了 *height* 便可以固定它的高度\
+但這樣就會造成，如果我們的 list 所包括的東西高度大於了我們所設定的 *height* ，超過的部分就會直接被隱藏起來\
+那我們要怎麼處理這個問題呢???
+\
+其實很簡單，我們只要加一行 CSS code 便可以解決著個煩惱
 
+    overflow-y: scroll;
 
+這行 code 會讓超過的部分，可以已向下滾動的方式呈現，這樣我們的資料就不會不見啦~~ \
+*overflow* 還有一些其他的功能，我們在這裡就不細細講解了，有興趣的話可以參考以下這份連結\
+[CSS overflow 屬性用法](https://www.wibibi.com/info.php?tid=157)
 
 
 
