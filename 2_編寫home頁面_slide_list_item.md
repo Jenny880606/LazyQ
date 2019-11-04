@@ -78,13 +78,20 @@ Ex.  在 ion-slides 中加入 ionSlideDidChange Events
         </ion-item>
     </ion-list>
 
+在完成以上教學，我們可以得到一個這樣的介面
 
+<img src="教程圖片/1572839994496.jpg" width="300px" height="534px">
 
+因為我們的 **slide** 介面沒有幫它設定寬度，所以就會擠成一塊\
+這個時候，我們可以來編寫 CSS 讓我們的版面更好看\
+\
+我們可以在 **ion-list** 的 **< >** 中加入 *style* 來加入我們 CSS code\
 
+     <ion-list style="width: 100%;">
 
+這樣我們就可以得到以下這個結果 ↓ ↓ ↓
 
-
-
+<img src="教程圖片/1572841236822.jpg" width="300px" height="534px">
 
 
 
