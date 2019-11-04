@@ -14,12 +14,13 @@ ionic 中 [ion-input](https://ionicframework.com/docs/api/input) 這個 UI 提�
 \
 為了避免以上問題，我們在這裡選擇使用 ionic 中另一個更方便的 UI \
 \
-[ion-datetime](https://ionicframework.com/docs/api/datetime) 提供使用以滾動的方式選取時間數值
+[ion-datetime](https://ionicframework.com/docs/api/datetime) 提供使用者以滾動的方式選取時間數值
 
-<img src="教程圖片/1572856967131.jpg">
+     <ion-datetime displayFormat="HH : mm" class="word_4" style="color:#148FC4"></ion-datetime>
 
-我們可以在 **ion-datetime** *Properties* 中規定我們需要的資料格式
+<img src="教程圖片/1572856967131.jpg" width="300px" height="230px">
 
-     <ion-datetime display-format="MMMM" value="2012-12-15T13:47:20.789"></ion-datetime>
+我們可以在 **ion-datetime** *Properties* 中的 displayFormat 規定我們需要的資料格式
+
 
 
