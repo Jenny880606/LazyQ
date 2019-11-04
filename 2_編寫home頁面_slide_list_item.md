@@ -85,9 +85,20 @@ Ex.  在 ion-slides 中加入 ionSlideDidChange Events
 因為我們的 **slide** 介面沒有幫它設定寬度，所以就會擠成一塊\
 這個時候，我們可以來編寫 CSS 讓我們的版面更好看\
 \
-我們可以在 **ion-list** 的 **< >** 中加入 *style* 來加入我們 CSS code\
+我們可以在 **ion-list** 中加入 *style* 來加入我們 CSS code
 
      <ion-list style="width: 100%;">
+
+\
+或是我們也可以在 **html.page.scss** 中加入
+
+    .list_style{
+        width: 100%;
+    }
+
+然後再在 **html.page.html** 的 **ion-list** 中加入 *class*
+
+    <ion-list class="list_style">
 
 這樣我們就可以得到以下這個結果 ↓ ↓ ↓
 
