@@ -94,27 +94,3 @@ ionic 要加入圖片跟 html 的寫法一樣
     <ion-icon name="add-circle-outline"></ion-icon>
     
 就可以直接使用這些圖示，而且只要你更改 *name* 值，就可以直接更換圖示，超級方便的~ 
-
-
-> **Input**
-
-[ion-input](https://ionicframework.com/docs/api/input) 這個 UI 提供我們一個方便的功能，讓我們可以快速的抓取到使用者的輸入值\
-\
-[ion-datetime](https://ionicframework.com/docs/api/datetime) 跟 *ion-input* 很相似，這個 UI 提供我們一個能讓使用者快速選擇 **時間** **日期** 的操作介面\
-讓我們不用要求使用者用 *ion-input* 輸入特定格式的日期時間\
-\
-在這裡我們使用 *ion-dateime* 來讓使用者輸入先觀看機台的時間點
-
-
-
-
-
-
-
-
-
-
-
-
-
-
