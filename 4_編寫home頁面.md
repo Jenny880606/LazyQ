@@ -16,9 +16,9 @@ ionic 中 [ion-input](https://ionicframework.com/docs/api/input) 這個 UI 提�
 \
 [ion-datetime](https://ionicframework.com/docs/api/datetime) 提供使用者以滾動的方式選取時間數值
 
-     <ion-datetime displayFormat="HH : mm" class="word_4" style="color:#148FC4"></ion-datetime>
-
 <img src="教程圖片/1572856967131.jpg" width="300px" height="230px">
+
+     <ion-datetime displayFormat="HH : mm" class="word_4" style="color:#148FC4"></ion-datetime>
 
 我們可以在 **ion-datetime** *Properties* 中的 displayFormat 規定我們需要的資料格式
 
