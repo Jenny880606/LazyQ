@@ -22,23 +22,31 @@ Ionic 已經幫我們設定好兩個連結\
 像是 : 
 > ***ngFor="let p of appPages"** 
 
-這是 Angular for 迴圈的寫法，他會把這個 **<> </>**  中間的 code 依照需求重複，讓五們不用重複打很多一樣的 code \
-至於詳細他要怎麼用，我們未來用的的時候再來詳談它 : )
+這是 Angular for 迴圈的寫法，他會把這個 **<> </>**  中間的 code 依照需求重複，讓我們不用重複打很多一樣的 code \
+至於詳細他要怎麼用，我們未來用的時候再來詳談它 : ) \
+\
+我們把不必要的 code刪除後，我們可以看到 Menu 會變成空白的\
+我們在 Menu 想要增加「用戶資訊」、「用戶設定」、「LINE連接的功能」\
+在我們經過 coding 之後，它們變成這樣的頁面 ↓ ↓ ↓
 
+<img src="教程圖片/1574140476612.jpg" width="300px" height="510px">
 
+在這裡我們用到的功能在之前的教學中幾乎都有提到過，除了 *select* 這個功能之外
 
+> **Select**
 
+[ion-select](https://ionicframework.com/docs/api/select) 這個功能提供我們方便設定選擇的資料，也方便我們抓取用戶選擇的資訊 
+   
+    <ion-select placeholder="?" style="margin-left: 65%;" interface="action-sheet">
+      <ion-select-option value="Y">Yes</ion-select-option>
+      <ion-select-option value="N">No</ion-select-option>
+    </ion-select>
 
-
-
-
-
-
-
-
-
-
-
+每一組 **ion-select** 可以有多個的 *ion-select-option* \
+每個 *ion-select-option* 都有自己的 value 值，用在之後回傳用戶選擇的資訊，可以依照自己的需求設定需要的 value 值 \
+\
+**interface** 在這裡提供了不同跳出選項的方式，像是 : *alert* 、 *popover* 、*action-sheet* \
+這些跳出選項的方式都可以在 [ion-select](https://ionicframework.com/docs/api/select) 這個網站旁邊的範例試玩
 
 
 
