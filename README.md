@@ -33,3 +33,7 @@
 2. CSS
 3. Javascript
 
+\
+**聯絡資訊 :**
+* 林俐秀 sophia30516@gmail.com
+* 許巧臻 
