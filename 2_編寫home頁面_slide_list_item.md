@@ -7,6 +7,9 @@
 
 就會將整個檔案資料夾匯入 VS code 中
 
+## 本篇概述
+- [第一章](#slide)
+
 # Home Page
 
 我們可以在 **src/app/home/** 中找到 home.page.html 、 home.page.scss ...
@@ -21,7 +24,7 @@
 藉由這些UI元件，我們可以快速的完成許多功能
 
 
-> **Slide**
+> <h3 id="slide">Slide</h3>
 
 在這裡因為我們頁面的需求，我們需要一個可以左右滑動的頁面\
 在 ionic UI Components 中有個功能是 [ion-slides](https://ionicframework.com/docs/api/slides) 可以實現我們的需要
