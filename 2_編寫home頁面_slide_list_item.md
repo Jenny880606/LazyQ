@@ -8,7 +8,11 @@
 就會將整個檔案資料夾匯入 VS code 中
 
 ## 本篇概述
-- [第一章](#slide)
+- [Slide](#slide)
+- [List & Item](#List_Item)
+- [Card](#Card)
+- [加入 Image](#Image)
+- [用戶輸入資訊 Input](#Input)
 
 # Home Page
 
@@ -56,7 +60,7 @@ Ex.  在 ion-slides 中加入 ionSlideDidChange Events
 
 ----------------------------------------------------- 
 
-> **List & Item**
+> <h3 id="List_Item">List & Item</h3>
 
 在這裡我們使用 [ion-list](https://ionicframework.com/docs/api/list) 和 [ion-item](https://ionicframework.com/docs/api/item) 來幫助我們列出每一台機台資訊
 
@@ -123,7 +127,8 @@ Ex.  在 ion-slides 中加入 ionSlideDidChange Events
 
 -----------------------------------------------------
 
-> **Card**
+> <h3 id="Card">Card</h3>
+
 
 再來我們要來使用 ionic UI components 中的 [**ion-card**](https://ionicframework.com/docs/api/card)
  
@@ -189,7 +194,7 @@ Ex.  在 ion-slides 中加入 ionSlideDidChange Events
 
 ---------------------------------------------------------------------
 
-> **加入 Image**
+> <h3 id="Image">加入 Image</h3>
 
 在 LazyQ+ 中，我們想要讓使用者更一覽無遺的找到哪一台機台是空閒的\
 所以我們便在 *item* 裡面插入我們製作的圖片，來體醒使用者\
@@ -220,7 +225,8 @@ ionic 要加入圖片跟 html 的寫法一樣
 \
 之後我們要連動到 *firebase* 的時候，我們會再來調整 home.page 裡面的 code
  
-> **Input**
+> <h3 id="Input">Input</h3>
+
 
 現在我們需要一個能讓使用者**輸入時間**來觀看機台各個時間點狀況的方法\
 \
