@@ -7,7 +7,7 @@
 
 就會將整個檔案資料夾匯入 VS code 中
 
-## 本篇概述
+## 本篇重點
 - [Slide](#slide)
 - [List & Item](#List_Item)
 - [Card](#Card)
