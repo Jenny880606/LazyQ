@@ -1,9 +1,11 @@
-## ionic 下載
+# ionic 環境
+> 下載 Ionic
+
 參考資料: [ionic 下載說明](https://ionicframework.com/docs/installation/cli)\
 以下說明為windows版本，在cmd中輸入以下指令
-> install the ionic CLI and Cordova
+* install the ionic CLI and Cordova
 
-    npm install -g ionic cordova
+      npm install -g ionic cordova
     
 ## 開始ionic專案
 **( 小提醒 : 新專案的檔案位置和輸入cmd的資料夾是在同一個地方 )**
