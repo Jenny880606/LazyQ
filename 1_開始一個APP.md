@@ -1,7 +1,7 @@
 # ionic 環境
 > 下載 Ionic
 
-參考資料: [ionic 下載說明](https://ionicframework.com/docs/installation/cli)\
+參考資料: [Ionic Environment Setup](https://ionicframework.com/docs/installation/environment)\
 以下說明為windows版本，在cmd中輸入以下指令
 
 * install the ionic CLI and Cordova
@@ -17,7 +17,13 @@
 * [Ionic Studion](https://ionicframework.com/studio?utm_source=docs&utm_medium=website&utm_campaign=studio%20launch)
 * [VS Code](https://code.visualstudio.com/)
 
+> Node.js
 
+現代JavaScript項目的工具都基於 Node.js ，可以直接連接這個 [download](https://nodejs.org/en/download/)
+
+> Git
+
+看個人需求來決定是覅安裝 Git ，在這裡我們是沒有安裝，如果有需要的話可以看官網的[教學](https://ionicframework.com/docs/installation/environment)
 
 # 開始ionic專案
 **( 小提醒 : 新專案的檔案位置和輸入cmd的資料夾是在同一個地方 )**
@@ -39,5 +45,14 @@ ionic 會在你的瀏覽器上顯示你現在這份APP的樣子
     ionic serve
 
 \
-\
 參考資料 : [Jonny Huang 的學習筆記](https://jonny-huang.github.io/ionic/training/01_creating_first_project/)
+
+# 匯出 APK
+
+
+
+
+
+
+
+
