@@ -69,8 +69,23 @@ buttons 可以有很多種，在 APP 中，我們常用到的就是**方法一**
         
     }
 
+----------
+> **JAVASCRIPT**
 
+JAVASCRIPT 的寫法跟 ANGULAR 的些法差不多
 
+差別就在於 function 放的地方不太一樣， JAVASCRIPT 是放在最外面， 其他的使用方式都跟 ANGULAR 一樣了
+
+    function presentAlert() {
+      const alert = document.createElement('ion-alert');
+      alert.header = 'Alert';
+      alert.subHeader = 'Subtitle';
+      alert.message = 'This is an alert message.';
+      alert.buttons = ['OK'];
+
+      document.body.appendChild(alert);
+      return alert.present();
+    }
 
 
 
