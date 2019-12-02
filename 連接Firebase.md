@@ -106,7 +106,7 @@
       bootstrap: [AppComponent]
       })
       
- 網站影片: [Firebase + ionic 教學影片](https://www.youtube.com/watch?v=Q8zcieAWn3g&t=769s)
+ 教學影片: [Firebase + ionic](https://www.youtube.com/watch?v=Q8zcieAWn3g&t=769s)
       
             
   
