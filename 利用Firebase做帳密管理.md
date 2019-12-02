@@ -106,4 +106,19 @@
  因為 Firebase 裡面，帳號都是用信箱去判斷的
  補充 : @lazyq.com 可以修改成自己想要的樣子，只要輸入是信箱格式就好了
  
+ * 啟動 Firebase 裡的登入方式
+ 接下來，只要跟著下面的步驟操作，就能順利登入囉
+ 
+ 
+ <img src="教程圖片/5.png" width="ˇ270px" height="200px">
+ 
+ 
+ <img src="教程圖片/5.png" width="ˇ270px" height="200px">
+ 
+ 
+ <img src="教程圖片/5.png" width="ˇ270px" height="200px">
+ 
+ 
+ <img src="教程圖片/5.png" width="ˇ270px" height="200px">
+ 
  
