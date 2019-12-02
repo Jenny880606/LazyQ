@@ -16,3 +16,5 @@
 * 輸入電子郵件和角色，點擊《新增成員》
 <img src="教程圖片/10.png" width="ˇ250px" height="200px">
 
+
+ 參考資料: [FirebaseDocs](https://firebase.google.com/docs?hl=zh-tw)      
