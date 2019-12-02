@@ -55,7 +55,7 @@
 
 
 
-> 連結  和 Firebase
+> 連結 Ionic 和 Firebase
 
 
 * 在 app 下面新增 firebase.ts
