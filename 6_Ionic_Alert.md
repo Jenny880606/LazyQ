@@ -23,7 +23,7 @@ buttons 可以有很多種，在 APP 中，我們常用到的就是**方法一**
 方法二 : 多了一個讀取你按了什麼按鈕功能，我們可以依照用戶點選的內容來決定要做什麼資料的處理
 
 
-
+```js
     import { AlertController } from '@ionic/angular';
     
     export class AlertExample {
@@ -68,14 +68,14 @@ buttons 可以有很多種，在 APP 中，我們常用到的就是**方法一**
       }
         
     }
-
+```
 ----------
 > **JAVASCRIPT**
 
 JAVASCRIPT 的寫法跟 ANGULAR 的些法差不多
 
 差別就在於 function 放的地方不太一樣， JAVASCRIPT 是放在最外面， 其他的使用方式都跟 ANGULAR 一樣了
-
+```js
     function presentAlert() {
       const alert = document.createElement('ion-alert');
       alert.header = 'Alert';
@@ -86,38 +86,7 @@ JAVASCRIPT 的寫法跟 ANGULAR 的些法差不多
       document.body.appendChild(alert);
       return alert.present();
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+```
 
 
 
