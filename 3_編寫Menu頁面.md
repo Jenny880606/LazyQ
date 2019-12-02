@@ -57,7 +57,6 @@ Ionic 已經幫我們設定好兩個連結
 
 每個 *ion-select-option* 都有自己的 value 值，用在之後回傳用戶選擇的資訊，可以依照自己的需求設定需要的 value 值 
 
-\
 **interface** 在這裡提供了不同跳出選項的方式，像是 : *alert* 、 *popover* 、*action-sheet* 
 
 這些跳出選項的方式都可以在 [ion-select](https://ionicframework.com/docs/api/select) 這個網站旁邊的範例試玩
