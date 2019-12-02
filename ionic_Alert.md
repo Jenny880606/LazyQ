@@ -9,7 +9,7 @@
 
 > **ANGYLAR**
 
-ANGULAR 的寫法基本上可以使用於 APP 任何需要跳通知的地方，除了在讀取 Firebase 的 function 中無法使用外，幾乎適用
+ANGULAR 的寫法基本上可使用於 APP 任何需要跳通知的地方，除了在讀取 Firebase 的 function 中無法使用外
 
 要使用 ionic 的 Alert 時，要先 **import** AlertController ，在把 AlertController 需告成全域變數
 
