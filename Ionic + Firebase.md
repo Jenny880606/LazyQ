@@ -1,4 +1,4 @@
-# ionic + Firebase
+# Ionic + Firebase
 >在cmd中輸入以下指令
 * install the firebase @angular/fire
 
@@ -76,5 +76,37 @@
       export default config
      
      
+* 打開 /src/app/app.module.ts，設定 Firebase 需要的東西
+
+      import firebaseConfig from './firebase'
+      import { AngularFireModule } from '@angular/fire';
+      import { AngularFireAuthModule } from '@angular/fire/auth'
+      import { HttpModule } from '@angular/http'
+      import { AngularFirestoreModule } from '@angular/fire/firestore';
+      import { AuthService } from './auth.service';
+      import { ShareModule } from './share.module';
+      
+      @NgModule({
+      declarations: [AppComponent],
+      entryComponents: [],
+      imports: [
+            BrowserModule,
+            IonicModule.forRoot(),
+            AppRoutingModule,
+            AngularFireModule.initializeApp(firebaseConfig),
+            AngularFireAuthModule,
+            AngularFirestoreModule,
+            FormsModule
+      ],
+      providers: [
+            StatusBar,
+            SplashScreen,
+            { provide: RouteReuseStrategy, useClass: IonicRouteStrategy }
+      ],
+      bootstrap: [AppComponent]
+      })
+      
+            
+  
 
 
