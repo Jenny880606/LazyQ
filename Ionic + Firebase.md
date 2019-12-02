@@ -62,16 +62,17 @@
 * 把剛剛複製的那段貼進 firebase.ts，並改成這樣
 
       const config = {
-         apiKey: "AIzaSyDwKmF7SVZYYjKJqGqEWsaMRpEndSIETTs",
-         authDomain: "lazyq-72323.firebaseapp.com",
-         databaseURL: "https://lazyq-72323.firebaseio.com",
-         projectId: "lazyq-72323",
-         storageBucket: "lazyq-72323.appspot.com",
-         messagingSenderId: "443129508275",
-         appId: "1:443129508275:web:3c5a5e6680a136b2f6dbc6",
-         measurementId: "G-KVGXH484F0"
+         apiKey: "AIzaSyB7kN3y7pTJKxbY58WcJnB9uLtpDFQuIEg",
+         authDomain: "example-1d5b5.firebaseapp.com",
+         databaseURL: "https://example-1d5b5.firebaseio.com",
+         projectId: "example-1d5b5",
+         storageBucket: "example-1d5b5.appspot.com",
+         messagingSenderId: "322075177821",
+         appId: "1:322075177821:web:d5bde438a04f3850556eb4",
+         measurementId: "G-PRWVT396HF"
        };
       export default config
      
      
+
 
