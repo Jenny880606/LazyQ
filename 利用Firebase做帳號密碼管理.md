@@ -126,6 +126,7 @@
  <img src="教程圖片/14.png" width="ˇ270px" height="200px">
  
  
+參考資料: [FirebaseDocs](https://firebase.google.com/docs?hl=zh-tw)      
 教學影片: [Firebase + ionic](https://www.youtube.com/watch?v=Q8zcieAWn3g&t=769s)
  
  
