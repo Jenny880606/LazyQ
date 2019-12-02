@@ -1,6 +1,6 @@
 # ionic + Firebase
 >在cmd中輸入以下指令
-* install the ionic CLI and Cordova
+* install the firebase @angular/fire
 
       npm install firebase @angular/fire --save
       
