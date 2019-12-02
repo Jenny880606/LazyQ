@@ -20,11 +20,14 @@
 
 ![image](教程圖片/1572784367774.jpg)
 
-在 home.page.html 中，我們的 coding 方式就跟一般我們寫 html 一樣\
-而在 home.page.scss 中，編寫的方式也是跟平常我們寫網頁的 css 一樣\
-\
-那我們為什麼要選擇使用 ionic 呢??\
-**ionic** 不同的地方是，他有自己的一些[UI Components](https://ionicframework.com/docs/components)可以使用\
+在 home.page.html 中，我們的 coding 方式就跟一般我們寫 html 一樣
+
+而在 home.page.scss 中，編寫的方式也是跟平常我們寫網頁的 css 一樣
+
+那我們為什麼要選擇使用 ionic 呢??
+
+**ionic** 不同的地方是，他有自己的一些[UI Components](https://ionicframework.com/docs/components)可以使用
+
 藉由這些UI元件，我們可以快速的完成許多功能
 
 
