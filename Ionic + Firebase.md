@@ -12,5 +12,5 @@
 > 開啟 Firebase 專案
 開啟後會看到這樣 ↓ ↓ ↓
 
-<img src="教程圖片/startfirebase.jpg" width="ˇ250px" height="300px">
+<img src="教程圖片/startfirebase.jpg" width="ˇ250px" height="200px">
 
