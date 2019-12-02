@@ -37,7 +37,7 @@
 在這裡因為我們頁面的需求，我們需要一個可以左右滑動的頁面
 
 在 ionic UI Components 中有個功能是 [ion-slides](https://ionicframework.com/docs/api/slides) 可以實現我們的需要
-
+```html
     <ion-slides pager="true">
         <ion-slide>
           <h1>Slide 1</h1>
@@ -47,7 +47,7 @@
           <h1>Slide 2</h1>
         </ion-slide>
     </ion-slides>
-
+```
 我們只要這份 code 放到我們需要的地方，便可以直接使用
 
 ionic UI Components 有個好處，每個 UI 都可以設定各種屬性和功能，來更加符合自己的需求
