@@ -27,7 +27,7 @@
       
 * 在 app 下面新增 user.service.ts
  
-      	  import { Injectable } from '@angular/core'
+      	import { Injectable } from '@angular/core'
 	  import { AngularFireAuth } from '@angular/fire/auth'
 	  import { first } from 'rxjs/operators'
 	  import { auth } from 'firebase/app'
