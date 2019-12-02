@@ -1,5 +1,6 @@
 # 如何審核使用者登入的帳號密碼呢?
 
+> code 編輯
 * 打開 /src/app/login/login.page.ts，設定 Firebase 需要的東西
 
       import { Component, OnInit } from '@angular/core';
@@ -106,19 +107,19 @@
  因為 Firebase 裡面，帳號都是用信箱去判斷的
  補充 : @lazyq.com 可以修改成自己想要的樣子，只要輸入是信箱格式就好了
  
- * 啟動 Firebase 裡的登入方式
+> 啟動 Firebase 裡的登入方式
  接下來，只要跟著下面的步驟操作，就能順利登入囉
  
+ * 點擊《Authentication》
+ <img src="教程圖片/11.png" width="ˇ270px" height="200px">
  
- <img src="教程圖片/5.png" width="ˇ270px" height="200px">
+ * 點擊《登入方式》
+ <img src="教程圖片/12.png" width="ˇ270px" height="200px">
  
+ * 點擊《電子郵件/密碼》
+ <img src="教程圖片/13.png" width="ˇ270px" height="200px">
  
- <img src="教程圖片/5.png" width="ˇ270px" height="200px">
- 
- 
- <img src="教程圖片/5.png" width="ˇ270px" height="200px">
- 
- 
- <img src="教程圖片/5.png" width="ˇ270px" height="200px">
+ * 點擊上方的《啟用》，再點擊《儲存》
+ <img src="教程圖片/14.png" width="ˇ270px" height="200px">
  
  
