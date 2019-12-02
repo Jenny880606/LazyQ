@@ -5,7 +5,7 @@
 <img src="教程圖片/logincode.png" width="800px" height="300px">
 
 
- <ion-input></ion-input> 就是讓使用者輸入字串的地方唷~~~
+ ion-input 就是讓使用者輸入字串的地方唷~~~
 
 如果 type 不一樣的話，產生的夏果也會不一樣喔
 產生的效果如下圖 ↓ ↓ ↓
