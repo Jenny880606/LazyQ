@@ -56,16 +56,17 @@ ionic UI Components 有個好處，每個 UI 都可以設定各種屬性和功�
 **Properties** : 可以設定各種 ionic 定義的屬性，可以直接加在 **< >** 中
 
 Ex. 在 ion-slides 中加入 pager 屬性
-    
+```html    
     <ion-slides pager="true">
-
+```
 \
 **Events** : 可以設定各種 ionic 定義的觸發事件，連動.ts 的 function ，也是可以直接加在 **< >** 中
 
 Ex.  在 ion-slides 中加入 ionSlideDidChange Events
-
+```html
      <ion-slides (ionSlideDidChange)="funtion()">
-
+```
+         
 ----------------------------------------------------- 
 
 > <h3 id="List_Item">List & Item</h3>
@@ -103,9 +104,9 @@ Ex.  在 ion-slides 中加入 ionSlideDidChange Events
 
 \
 我們可以在 **ion-list** 中加入 *style* 來加入我們 CSS code
-
+```html
      <ion-list style="width: 100%;">
-
+```
 或是我們也可以在 **html.page.scss** 中加入
 ```css
     .list_style{
@@ -113,9 +114,9 @@ Ex.  在 ion-slides 中加入 ionSlideDidChange Events
     }
 ```
 然後再在 **html.page.html** 的 **ion-list** 中加入 *class*
-
+```html
     <ion-list class="list_style">
-
+```
 這樣我們就可以得到以下這個結果 ↓ ↓ ↓
 
 <img src="教程圖片/1572841236822.jpg" width="300px" height="534px">
@@ -131,9 +132,9 @@ Ex.  在 ion-slides 中加入 ionSlideDidChange Events
 
 \
 其實很簡單，我們只要加一行 CSS code 便可以解決這個煩惱
-
+```css
     overflow-y: scroll;
-
+```
 這行 code 會讓超過的部分，可以已向下滾動的方式呈現，這樣我們的資料就不會不見啦~~ 
 
 \
@@ -218,9 +219,9 @@ Ex.  在 ion-slides 中加入 ionSlideDidChange Events
 所以我們便在 *item* 裡面插入我們製作的圖片，來體醒使用者
 
 ionic 要加入圖片跟 html 的寫法一樣
-         
+```html       
     <img class="img1" src="">
-    
+``` 
 但是我們的圖片檔案該放在哪裡，ionic 才能抓得到呢???
 
 在這裡，我們在 src\assets\ 中建立一個資料夾 *img* ，在裡面我們放入我們需要用到的圖片檔案
@@ -228,18 +229,18 @@ ionic 要加入圖片跟 html 的寫法一樣
 <img src="教程圖片/1572852357698.jpg" width="300px" height="400px">
 
 並在 *img* *src* 中加上圖片檔案位置來連結這張圖片
-     
+```html     
     <img class="img1" src="assets\img\good.png">
-
+```
 這樣我們就可以得到以下的結果 ↓ ↓ ↓
 
 <img src="教程圖片/1572852789681.jpg" width="300px" height="534px">
 
 \
 在 ionic 中 [ion-icon](https://ionicons.com/) 這個 UI 提供了我們許多常見的的圖示，只要在需要圖示的地方輸入
-
+```html
     <ion-icon name="add-circle-outline"></ion-icon>
-    
+```    
 就可以直接使用這些圖示，而且只要你更改 *name* 值，就可以直接更換圖示，超級方便的~ 
 
 之後我們要連動到 *firebase* 的時候，我們會再來調整 home.page 裡面的 code
@@ -260,9 +261,9 @@ ionic 中 [ion-input](https://ionicframework.com/docs/api/input) 這個 UI 提�
 [ion-datetime](https://ionicframework.com/docs/api/datetime) 提供使用者以滾動的方式選取時間數值
 
 <img src="教程圖片/1572856967131.jpg" width="300px" height="230px">
-
+```html
      <ion-datetime displayFormat="HH : mm" class="word_4" style="color:#148FC4"></ion-datetime>
-
+```
 我們可以在 **ion-datetime** *Properties* 中的 displayFormat 規定我們需要的資料格式
 
 也可以使用 *Event* 來抓取使用者的輸入資訊，以供我們之後在寫 .ts 的時候使用
@@ -276,13 +277,13 @@ ionic 中 [ion-input](https://ionicframework.com/docs/api/input) 這個 UI 提�
 
 \
 在文字的方面，我們使用了 CSS 的 *font-family* 來把我們 APP 中的字改成我們想要的字型
-
+```css
     font-family:Microsoft JhengHei;
-
+```
 並用 *text-align* 來達到文字靠左的效果
-
+```css
     text-align: left;
-
+```
 機台列表的部分
 
 我們使用了 **ion-label** 在 item 中加入文字
