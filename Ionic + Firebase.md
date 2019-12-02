@@ -9,8 +9,19 @@
 
 網站連結: [Firebase](https://firebase.google.com/)
 
-> 開啟 Firebase 專案
 開啟後會看到這樣 ↓ ↓ ↓
 
 <img src="教程圖片/startfirebase.jpg" width="ˇ250px" height="200px">
 
+> 開啟 Firebase 專案
+之後跟著下面的流程一起做~~~
+
+<img src="教程圖片/1.jpg" width="ˇ250px" height="200px">
+
+<img src="教程圖片/2.jpg" width="ˇ250px" height="200px">
+
+這裡需要填寫完應用程式暱稱再點擊《註冊應用程式》唷
+
+<img src="教程圖片/3.jpg" width="ˇ250px" height="200px">
+
+<img src="教程圖片/4.jpg" width="ˇ250px" height="200px">
