@@ -59,7 +59,9 @@
 
 
 * 在 app 下面新增 firebase.ts
-* 把剛剛複製的那段貼進 firebase.ts，並改成這樣
+* 把剛剛複製的那段貼進 firebase.ts，並修改成這種格式
+
+注意!!這邊要記得打自己的金鑰喔~~~
 
       const config = {
          apiKey: "AIzaSyB7kN3y7pTJKxbY58WcJnB9uLtpDFQuIEg",
