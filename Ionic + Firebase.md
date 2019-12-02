@@ -61,7 +61,7 @@
 * 在 app 下面新增 firebase.ts
 * 把剛剛複製的那段貼進 firebase.ts，並改成這樣
 
-     const config = {
+      const config = {
          apiKey: "AIzaSyDwKmF7SVZYYjKJqGqEWsaMRpEndSIETTs",
          authDomain: "lazyq-72323.firebaseapp.com",
          databaseURL: "https://lazyq-72323.firebaseio.com",
@@ -71,6 +71,7 @@
          appId: "1:443129508275:web:3c5a5e6680a136b2f6dbc6",
          measurementId: "G-KVGXH484F0"
        };
-     export default config
+      export default config
+     
      
 
