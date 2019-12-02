@@ -36,4 +36,4 @@
 
 >**聯絡資訊 :**
 * 林俐秀 sophia30516@gmail.com
-* 許巧臻 s1061416@mai.yzu.edu.tw
+* 許巧臻 s1061416@mail.yzu.edu.tw
