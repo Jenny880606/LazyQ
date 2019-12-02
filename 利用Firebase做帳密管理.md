@@ -24,3 +24,25 @@
         ) { }
       }
       
+* 把下面這個 function 寫進 login.page.ts 裡面
+
+      async login() {
+            const { username, password } = this
+            try {
+                  const res = await this.afAuth.auth.signInWithEmailAndPassword(username + '@lazyq.com',password);
+                  if(res.user) {
+		            this.user.setUser({
+			            username,
+				      uid: res.user.uid
+		            })
+			      this.router.navigate(['/home'])
+		      }
+            }catch(err) {
+                  console.dir(err)
+                  if(err.code == "auth/user-not-found"){
+                        console.log("user not found")
+                  }
+            }
+      }
+      
+ 
