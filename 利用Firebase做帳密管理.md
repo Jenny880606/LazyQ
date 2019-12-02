@@ -24,6 +24,62 @@
         ) { }
       }
       
+      
+* 在 app 下面新增 user.service.ts
+ 
+      	  import { Injectable } from '@angular/core'
+	  import { AngularFireAuth } from '@angular/fire/auth'
+	  import { first } from 'rxjs/operators'
+	  import { auth } from 'firebase/app'
+
+	  interface user {
+		username: string,
+		uid: string
+	  }
+
+	  @Injectable()
+	  export class UserService {
+		  private user: user
+		  constructor(private afAuth: AngularFireAuth) {}
+		  
+		  setUser(user: user) {
+			  this.user = user
+		  }
+		  
+		  getUsername(): string {
+			  return this.user.username
+		  }
+
+		  async isAuthenticated() {
+			  if(this.user) return true
+
+			  const user = await this.afAuth.authState.pipe(first()).toPromise()
+
+			  if(user) {
+				  this.setUser({
+					  username: user.email.split('@')[0],
+					  uid: user.uid
+				  })
+				  return true
+			  }
+			  return false
+		  }
+
+		  getUID(): string {
+			  return this.user.uid
+		  }
+	  }
+ 
+     
+加了這個ts檔，之後在其他頁面都可以呼叫裡面的 function
+
+使用前提 : 
+
+需要在最前面加入 import { UserService } from '../user.service'; 
+
+在 constructor 裡面加入 public user: UserService
+
+ 
 * 把下面這個 function 寫進 login.page.ts 裡面
 
       async login() {
