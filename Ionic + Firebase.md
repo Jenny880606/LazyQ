@@ -15,8 +15,7 @@
 
 > 開啟 Firebase 專案
 之後跟著下面的流程一起做~~~
-
-<img src="教程圖片/1.jpg" width="ˇ250px" height="200px">
+*點擊網頁
 
 <img src="教程圖片/2.jpg" width="ˇ270px" height="200px">
 
