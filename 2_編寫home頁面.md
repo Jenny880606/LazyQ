@@ -129,6 +129,7 @@ Ex.  在 ion-slides 中加入 ionSlideDidChange Events
 
 那我們要怎麼處理這個問題呢??? 
 
+\
 其實很簡單，我們只要加一行 CSS code 便可以解決這個煩惱
 
     overflow-y: scroll;
@@ -160,7 +161,6 @@ Ex.  在 ion-slides 中加入 ionSlideDidChange Events
 
 <img src="教程圖片/1572848836013.jpg" width="300px" height="534px">
 
-\
 我們該如何調整它，才能讓它不要擠在一起呢??? 
 
 在這裡，我們想到的解決方式是使用 *div* 
