@@ -52,7 +52,7 @@
 
 ionic UI Components 有個好處，每個 UI 都可以設定各種屬性和功能，來更加符合自己的需求
 
-
+\
 **Properties** : 可以設定各種 ionic 定義的屬性，可以直接加在 **< >** 中
 
 Ex. 在 ion-slides 中加入 pager 屬性
@@ -106,7 +106,6 @@ Ex.  在 ion-slides 中加入 ionSlideDidChange Events
 
      <ion-list style="width: 100%;">
 
-\
 或是我們也可以在 **html.page.scss** 中加入
 
     .list_style{
@@ -155,7 +154,6 @@ Ex.  在 ion-slides 中加入 ionSlideDidChange Events
       <ion-card-content>預計等待__分鐘</ion-card-content>
     </ion-card>
 
-\
 它看起來跟上面的寫法差不多，只要把它加入 home.page.html 看起來就好了
 
 但是你會發現，怎麼它出來的結果跟我們預想的不一樣呢????
@@ -243,7 +241,7 @@ ionic 要加入圖片跟 html 的寫法一樣
     <ion-icon name="add-circle-outline"></ion-icon>
     
 就可以直接使用這些圖示，而且只要你更改 *name* 值，就可以直接更換圖示，超級方便的~ 
-\
+
 之後我們要連動到 *firebase* 的時候，我們會再來調整 home.page 裡面的 code
  
 > <h3 id="Input">Input</h3>
@@ -306,11 +304,16 @@ ionic 中 [ion-input](https://ionicframework.com/docs/api/input) 這個 UI 提�
 等到我們連動 *firebase* 之後，我們會再跟大家解釋
 
 \
-色彩配色的部分，在這裡提供大家一些我們這次有用到的一些小工具: \
-[色碼表_1](https://www.toodoo.com/db/color.html) : 這個網頁提供了很多常用顏色的色碼表\
-[色碼表_2](https://www.ifreesite.com/color/) : 這個網頁提供了許多顏色由淺到深的色碼，在最下方也可以自己調色\
-[colorspire.com](https://www.colorspire.com/) : 這個網頁可以讓大家嘗試各種顏色搭配的效果\
-[paletton.com](http://paletton.com/#uid=33r0u0kgQXl3M+MbaZnlEU2qbNW) : 這個網站也提供了各種方式，讓我們能嘗試不同的配色方式\
+色彩配色的部分，在這裡提供大家一些我們這次有用到的一些小工具: 
+
+[色碼表_1](https://www.toodoo.com/db/color.html) : 這個網頁提供了很多常用顏色的色碼表
+
+[色碼表_2](https://www.ifreesite.com/color/) : 這個網頁提供了許多顏色由淺到深的色碼，在最下方也可以自己調色
+
+[colorspire.com](https://www.colorspire.com/) : 這個網頁可以讓大家嘗試各種顏色搭配的效果
+
+[paletton.com](http://paletton.com/#uid=33r0u0kgQXl3M+MbaZnlEU2qbNW) : 這個網站也提供了各種方式，讓我們能嘗試不同的配色方式
+
 \
 那麼，基本的 **home.page.html** 和 **home.page.scss** 的coding就到這裡啦~ \
 我們把另一頁做完的話會長這樣子 ↓ ↓ ↓
