@@ -1,6 +1,7 @@
 ## 如何開始 coding ?
 
-在這裡我們使用 [VS code](https://code.visualstudio.com/) 來做編寫程式\
+在這裡我們使用 [VS code](https://code.visualstudio.com/) 來做編寫程式
+
 在cmd中輸入
 
     code .
@@ -51,7 +52,7 @@
 
 ionic UI Components 有個好處，每個 UI 都可以設定各種屬性和功能，來更加符合自己的需求
 
-\
+
 **Properties** : 可以設定各種 ionic 定義的屬性，可以直接加在 **< >** 中
 
 Ex. 在 ion-slides 中加入 pager 屬性
