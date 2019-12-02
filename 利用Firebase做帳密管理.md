@@ -75,9 +75,9 @@
 
 使用前提 : 
 
-需要在最前面加入 import { UserService } from '../user.service'; 
+1. 需要在最前面加入 import { UserService } from '../user.service'; 
 
-在 constructor 裡面加入 public user: UserService
+2. 在 constructor 裡面加入 public user: UserService
 
  
 * 把下面這個 function 寫進 login.page.ts 裡面
@@ -103,6 +103,7 @@
       
  注意!!! 在這裡，帳號需要使用 username + '@lazyq.com' 喔~~
  
- 因為 Firebase 裡面，帳號都是用信箱去判斷的，所以只要輸入是信箱格式就好了
+ 因為 Firebase 裡面，帳號都是用信箱去判斷的
+ 補充 : @lazyq.com 可以修改成自己想要的樣子，只要輸入是信箱格式就好了
  
  
