@@ -6,6 +6,7 @@
       
   
   
+  
 > 開啟 Firebase
 
 網站連結: [Firebase](https://firebase.google.com/)
@@ -13,6 +14,7 @@
 開啟後會看到這樣 ↓ ↓ ↓
 
 <img src="教程圖片/start.png" width="ˇ250px" height="200px">
+
 
 
 > 開啟 Firebase 專案
@@ -51,6 +53,7 @@
 * 把紅色框起來的部分先複製一份
 
 <img src="教程圖片/7.png" width="ˇ270px" height="200px">
+
 
 
 > 連結  和 Firebase
