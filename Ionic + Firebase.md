@@ -18,7 +18,7 @@
 
 <img src="教程圖片/1.jpg" width="ˇ250px" height="200px">
 
-<img src="教程圖片/2.jpg" width="ˇ20px" height="200px">
+<img src="教程圖片/2.jpg" width="ˇ270px" height="200px">
 
 這裡需要填寫完應用程式暱稱再點擊《註冊應用程式》唷
 
