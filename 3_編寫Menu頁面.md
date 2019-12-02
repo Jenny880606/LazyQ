@@ -47,12 +47,12 @@ Ionic 已經幫我們設定好兩個連結
 > **Select**
 
 [ion-select](https://ionicframework.com/docs/api/select) 這個功能提供我們方便設定選擇的資料，也方便我們抓取用戶選擇的資訊 
-   
+```html   
     <ion-select placeholder="?" style="margin-left: 65%;" interface="action-sheet">
       <ion-select-option value="Y">Yes</ion-select-option>
       <ion-select-option value="N">No</ion-select-option>
     </ion-select>
-
+```
 每一組 **ion-select** 可以有多個的 *ion-select-option* 
 
 每個 *ion-select-option* 都有自己的 value 值，用在之後回傳用戶選擇的資訊，可以依照自己的需求設定需要的 value 值 
