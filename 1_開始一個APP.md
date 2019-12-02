@@ -1,7 +1,8 @@
 # ionic 環境
 > 下載 Ionic
 
-參考資料: [Ionic Environment Setup](https://ionicframework.com/docs/installation/environment)\
+參考資料: [Ionic Environment Setup](https://ionicframework.com/docs/installation/environment)
+
 以下說明為windows版本，在cmd中輸入以下指令
 
 * install the ionic CLI and Cordova
@@ -11,7 +12,8 @@
     
 > code editor
 
-一般的 code editor 都可以用來編譯 ionic 的程式碼，在官網上提供了兩款他們推薦的編譯器\
+一般的 code editor 都可以用來編譯 ionic 的程式碼，在官網上提供了兩款他們推薦的編譯器
+
 在這裡，我們是使用 VS Code 來編譯我們的程式
 
 * [Ionic Studion](https://ionicframework.com/studio?utm_source=docs&utm_medium=website&utm_campaign=studio%20launch)
