@@ -9,4 +9,4 @@
 產生的效果如下圖 ↓ ↓ ↓
 <img src="教程圖片/loginpic1.png" width="400px" height="300px">
 
-type = "pssword" 的話，輸入的字會以*代替
+type = "pssword" 的話，輸入的字會以 * 代替
