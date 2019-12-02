@@ -113,13 +113,19 @@
 * 點擊《Authentication》
  <img src="教程圖片/11.png" width="ˇ270px" height="200px">
  
+ 
 * 點擊《登入方式》
  <img src="教程圖片/12.png" width="ˇ270px" height="200px">
+ 
  
 * 點擊《電子郵件/密碼》
  <img src="教程圖片/13.png" width="ˇ270px" height="200px">
  
+ 
 * 點擊上方的《啟用》，再點擊《儲存》
  <img src="教程圖片/14.png" width="ˇ270px" height="200px">
+ 
+ 
+教學影片: [Firebase + ionic](https://www.youtube.com/watch?v=Q8zcieAWn3g&t=769s)
  
  
