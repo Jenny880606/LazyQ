@@ -323,4 +323,5 @@ ionic 中 [ion-input](https://ionicframework.com/docs/api/input) 這個 UI 提�
 
 
 
-
+\
+下一篇 : [編寫 MENU 頁面](3_編寫Menu頁面.md)
