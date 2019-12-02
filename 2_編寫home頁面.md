@@ -71,7 +71,7 @@ Ex.  在 ion-slides 中加入 ionSlideDidChange Events
 > <h3 id="List_Item">List & Item</h3>
 
 在這裡我們使用 [ion-list](https://ionicframework.com/docs/api/list) 和 [ion-item](https://ionicframework.com/docs/api/item) 來幫助我們列出每一台機台資訊
-
+```html
     <ion-list>
         <ion-item>
             <ion-label>1F-A</ion-label>
@@ -92,7 +92,7 @@ Ex.  在 ion-slides 中加入 ionSlideDidChange Events
             <ion-label>3F-B</ion-label>
         </ion-item>
     </ion-list>
-
+```
 在完成以上教學，我們可以得到一個這樣的介面
 
 <img src="教程圖片/1572839994496.jpg" width="300px" height="534px">
@@ -107,11 +107,11 @@ Ex.  在 ion-slides 中加入 ionSlideDidChange Events
      <ion-list style="width: 100%;">
 
 或是我們也可以在 **html.page.scss** 中加入
-
+```css
     .list_style{
         width: 100%;
     }
-
+```
 然後再在 **html.page.html** 的 **ion-list** 中加入 *class*
 
     <ion-list class="list_style">
@@ -147,14 +147,14 @@ Ex.  在 ion-slides 中加入 ionSlideDidChange Events
 
 
 再來我們要來使用 ionic UI components 中的 [**ion-card**](https://ionicframework.com/docs/api/card)
- 
+ ```html
     <ion-card>
       <ion-card-header>
       <ion-card-title>DRY 3F-A</ion-card-title>
       </ion-card-header>
       <ion-card-content>預計等待__分鐘</ion-card-content>
     </ion-card>
-
+```
 它看起來跟上面的寫法差不多，只要把它加入 home.page.html 看起來就好了
 
 但是你會發現，怎麼它出來的結果跟我們預想的不一樣呢????
@@ -168,7 +168,7 @@ Ex.  在 ion-slides 中加入 ionSlideDidChange Events
 我們分別使用兩個 *div* 來把我們之前寫的 list 和要加上的 card 包起來
 
 再把 *class* 的部分移到合適的位置
-    
+```html    
     <div class="list_style">
         <ion-card>
               <ion-card-header>
@@ -200,7 +200,7 @@ Ex.  在 ion-slides 中加入 ionSlideDidChange Events
         </div>
     </div>
     
-      
+```      
 這樣他們就可以和平的待在一塊了
 
 <img src="教程圖片/1572849796704.jpg" width="300px" height="534px">
