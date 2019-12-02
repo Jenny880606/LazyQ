@@ -33,7 +33,8 @@
 
 > <h3 id="slide">Slide</h3>
 
-在這裡因為我們頁面的需求，我們需要一個可以左右滑動的頁面\
+在這裡因為我們頁面的需求，我們需要一個可以左右滑動的頁面
+
 在 ionic UI Components 中有個功能是 [ion-slides](https://ionicframework.com/docs/api/slides) 可以實現我們的需要
 
     <ion-slides pager="true">
@@ -46,17 +47,20 @@
         </ion-slide>
     </ion-slides>
 
-我們只要這份 code 放到我們需要的地方，便可以直接使用\
+我們只要這份 code 放到我們需要的地方，便可以直接使用
+
+ionic UI Components 有個好處，每個 UI 都可以設定各種屬性和功能，來更加符合自己的需求
+
 \
-ionic UI Components 有個好處，每個 UI 都可以設定各種屬性和功能，來更加符合自己的需求\
-\
-**Properties** : 可以設定各種 ionic 定義的屬性，可以直接加在 **< >** 中\
+**Properties** : 可以設定各種 ionic 定義的屬性，可以直接加在 **< >** 中
+
 Ex. 在 ion-slides 中加入 pager 屬性
     
     <ion-slides pager="true">
 
 \
-**Events** : 可以設定各種 ionic 定義的觸發事件，連動.ts 的 function ，也是可以直接加在 **< >** 中\
+**Events** : 可以設定各種 ionic 定義的觸發事件，連動.ts 的 function ，也是可以直接加在 **< >** 中
+
 Ex.  在 ion-slides 中加入 ionSlideDidChange Events
 
      <ion-slides (ionSlideDidChange)="funtion()">
@@ -92,8 +96,10 @@ Ex.  在 ion-slides 中加入 ionSlideDidChange Events
 
 <img src="教程圖片/1572839994496.jpg" width="300px" height="534px">
 
-因為我們的 **slide** 介面沒有幫它設定寬度，所以就會擠成一塊\
-這個時候，我們可以來編寫 CSS 讓我們的版面更好看\
+因為我們的 **slide** 介面沒有幫它設定寬度，所以就會擠成一塊
+
+這個時候，我們可以來編寫 CSS 讓我們的版面更好看
+
 \
 我們可以在 **ion-list** 中加入 *style* 來加入我們 CSS code
 
@@ -115,17 +121,23 @@ Ex.  在 ion-slides 中加入 ionSlideDidChange Events
 <img src="教程圖片/1572841236822.jpg" width="300px" height="534px">
 
 \
-在這裡，我們 **ion-list** 的長度是隨著它所包的內容物而增長\
-如果我們幫它設定了 *height* 便可以固定它的高度\
-但這樣就會造成，如果我們的 ion-list 所包括的東西高度大於了我們所設定的 *height* ，超過的部分就會直接被隱藏起來\
-那我們要怎麼處理這個問題呢??? \
-\
+在這裡，我們 **ion-list** 的長度是隨著它所包的內容物而增長
+
+如果我們幫它設定了 *height* 便可以固定它的高度
+
+但這樣就會造成，如果我們的 ion-list 所包括的東西高度大於了我們所設定的 *height* ，超過的部分就會直接被隱藏起來
+
+那我們要怎麼處理這個問題呢??? 
+
 其實很簡單，我們只要加一行 CSS code 便可以解決這個煩惱
 
     overflow-y: scroll;
 
-這行 code 會讓超過的部分，可以已向下滾動的方式呈現，這樣我們的資料就不會不見啦~~ \
-*overflow* 還有一些其他的功能，我們在這裡就不細細講解了，有興趣的話可以參考以下這份連結\
+這行 code 會讓超過的部分，可以已向下滾動的方式呈現，這樣我們的資料就不會不見啦~~ 
+
+\
+*overflow* 還有一些其他的功能，我們在這裡就不細細講解了，有興趣的話可以參考以下這份連結
+
 [CSS overflow 屬性用法](https://www.wibibi.com/info.php?tid=157)
 
 -----------------------------------------------------
@@ -143,16 +155,19 @@ Ex.  在 ion-slides 中加入 ionSlideDidChange Events
     </ion-card>
 
 \
-它看起來跟上面的寫法差不多，只要把它加入 home.page.html 看起來就好了\
+它看起來跟上面的寫法差不多，只要把它加入 home.page.html 看起來就好了
+
 但是你會發現，怎麼它出來的結果跟我們預想的不一樣呢????
 
 <img src="教程圖片/1572848836013.jpg" width="300px" height="534px">
 
 \
-我們該如何調整它，才能讓它不要擠在一起呢??? \
-\
-在這裡，我們想到的解決方式是使用 *div* \
-我們分別使用兩個 *div* 來把我們之前寫的 list 和要加上的 card 包起來\
+我們該如何調整它，才能讓它不要擠在一起呢??? 
+
+在這裡，我們想到的解決方式是使用 *div* 
+
+我們分別使用兩個 *div* 來把我們之前寫的 list 和要加上的 card 包起來
+
 再把 *class* 的部分移到合適的位置
     
     <div class="list_style">
@@ -192,21 +207,23 @@ Ex.  在 ion-slides 中加入 ionSlideDidChange Events
 <img src="教程圖片/1572849796704.jpg" width="300px" height="534px">
 
 在 *card* 中，我們不一定要使用既有的 **ion-card-header** 和 **ion-card-content**
-\
+
 我們也可以使用原本 *html* 中就有的 **h1** 、 **p** ...等，來編譯我們的 card 內容
 
 ---------------------------------------------------------------------
 
 > <h3 id="Image">加入 Image</h3>
 
-在 LazyQ+ 中，我們想要讓使用者更一覽無遺的找到哪一台機台是空閒的\
-所以我們便在 *item* 裡面插入我們製作的圖片，來體醒使用者\
-\
+在 LazyQ+ 中，我們想要讓使用者更一覽無遺的找到哪一台機台是空閒的
+
+所以我們便在 *item* 裡面插入我們製作的圖片，來體醒使用者
+
 ionic 要加入圖片跟 html 的寫法一樣
          
     <img class="img1" src="">
     
-但是我們的圖片檔案該放在哪裡，ionic 才能抓得到呢???\
+但是我們的圖片檔案該放在哪裡，ionic 才能抓得到呢???
+
 在這裡，我們在 src\assets\ 中建立一個資料夾 *img* ，在裡面我們放入我們需要用到的圖片檔案
 
 <img src="教程圖片/1572852357698.jpg" width="300px" height="400px">
@@ -231,22 +248,24 @@ ionic 要加入圖片跟 html 的寫法一樣
 > <h3 id="Input">Input</h3>
 
 
-現在我們需要一個能讓使用者**輸入時間**來觀看機台各個時間點狀況的方法\
-\
-ionic 中 [ion-input](https://ionicframework.com/docs/api/input) 這個 UI 提供我們一個快速抓取使用者輸入值的功能\
-\
-但是，我們現在要抓取的數值是時間，時間有許多的輸入格式\
-如果我們要求使用者依照我們要的格式輸入，而使用者卻輸入了另一種格式，這樣可能造成我們的程式出錯\
-\
-為了避免以上問題，我們在這裡選擇使用 ionic 中另一個更方便的 UI \
-\
+現在我們需要一個能讓使用者**輸入時間**來觀看機台各個時間點狀況的方法
+
+ionic 中 [ion-input](https://ionicframework.com/docs/api/input) 這個 UI 提供我們一個快速抓取使用者輸入值的功能
+
+但是，我們現在要抓取的數值是時間，時間有許多的輸入格式
+
+如果我們要求使用者依照我們要的格式輸入，而使用者卻輸入了另一種格式，這樣可能造成我們的程式出錯
+
+為了避免以上問題，我們在這裡選擇使用 ionic 中另一個更方便的 UI 
+
 [ion-datetime](https://ionicframework.com/docs/api/datetime) 提供使用者以滾動的方式選取時間數值
 
 <img src="教程圖片/1572856967131.jpg" width="300px" height="230px">
 
      <ion-datetime displayFormat="HH : mm" class="word_4" style="color:#148FC4"></ion-datetime>
 
-我們可以在 **ion-datetime** *Properties* 中的 displayFormat 規定我們需要的資料格式\
+我們可以在 **ion-datetime** *Properties* 中的 displayFormat 規定我們需要的資料格式
+
 也可以使用 *Event* 來抓取使用者的輸入資訊，以供我們之後在寫 .ts 的時候使用
 
 
@@ -265,21 +284,26 @@ ionic 中 [ion-input](https://ionicframework.com/docs/api/input) 這個 UI 提�
 
     text-align: left;
 
-機台列表的部分\
-我們使用了 **ion-label** 在 item 中加入文字\
+機台列表的部分
+
+我們使用了 **ion-label** 在 item 中加入文字
+
 因為 **ion-label** 不會換行，而且會平均分配空間給每個 **label**，所以我們只要用 CSS 的 *margin* 功能就可以達到上圖的效果
 
     <ion-label>  </ion-label>
     
     margin-left: 7%;
 
-在 item ，我們使用了它的 *Properties* 中的 **detail** ，它會讓最 item 的最後面增加一個 **">"** 的符號 \
-這個小東西可以提示使用者在使用 APP 時，更容易發現那裡可以點進去，這跟我們未來要設計的功能有所相關\
-\
-另外，別忘了我們的 **slider** 還有另一個喔，另一頁的寫法跟這頁有 87% 相似\
-\
-至於為什麼我們會使用 **slider** 來製作另一個頁面，而不是再開啟一個新的 page 的原因\
-等到我們連動 *firebase* 之後，我們會再跟大家解釋\
+在 item ，我們使用了它的 *Properties* 中的 **detail** ，它會讓最 item 的最後面增加一個 **">"** 的符號 
+
+這個小東西可以提示使用者在使用 APP 時，更容易發現那裡可以點進去，這跟我們未來要設計的功能有所相關
+
+另外，別忘了我們的 **slider** 還有另一個喔，另一頁的寫法跟這頁有 87% 相似
+
+至於為什麼我們會使用 **slider** 來製作另一個頁面，而不是再開啟一個新的 page 的原因
+
+等到我們連動 *firebase* 之後，我們會再跟大家解釋
+
 \
 色彩配色的部分，在這裡提供大家一些我們這次有用到的一些小工具: \
 [色碼表_1](https://www.toodoo.com/db/color.html) : 這個網頁提供了很多常用顏色的色碼表\
@@ -291,34 +315,6 @@ ionic 中 [ion-input](https://ionicframework.com/docs/api/input) 這個 UI 提�
 我們把另一頁做完的話會長這樣子 ↓ ↓ ↓
 
 <img src="教程圖片/1572868905653.jpg" width="300px" height="534px">
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
