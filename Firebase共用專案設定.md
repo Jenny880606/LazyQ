@@ -1,4 +1,5 @@
 > Firebase 共用專案設定
+
 了解 Firebase 如何共用專案，就能和 partner 一起寫程式囉~~~
 
 * 點擊《專案設定》
