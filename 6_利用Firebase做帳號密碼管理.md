@@ -130,3 +130,6 @@
 教學影片: [Firebase + ionic](https://www.youtube.com/watch?v=Q8zcieAWn3g&t=769s)
  
  
+\
+下一篇 : [機台資料連結](7_機台資料.md)
+ 
