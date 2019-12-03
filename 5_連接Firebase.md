@@ -62,7 +62,7 @@
 * 把剛剛複製的那段貼進 firebase.ts，並修改成這種格式
 
 注意!!! 這邊要記得打自己的金鑰喔~~~
-
+```js
       const config = {
          apiKey: "AIzaSyB7kN3y7pTJKxbY58WcJnB9uLtpDFQuIEg",
          authDomain: "example-1d5b5.firebaseapp.com",
@@ -74,10 +74,10 @@
          measurementId: "G-PRWVT396HF"
        };
       export default config
-     
+ ```    
      
 * 打開 /src/app/app.module.ts，設定 Firebase 需要的東西
-
+```js
       import firebaseConfig from './firebase'
       import { AngularFireModule } from '@angular/fire';
       import { AngularFireAuthModule } from '@angular/fire/auth'
@@ -105,7 +105,8 @@
       ],
       bootstrap: [AppComponent]
       })
-     
+ ```
+ \
  參考資料: [FirebaseDocs](https://firebase.google.com/docs?hl=zh-tw)      
  教學影片: [Firebase + ionic](https://www.youtube.com/watch?v=Q8zcieAWn3g&t=769s)
 
