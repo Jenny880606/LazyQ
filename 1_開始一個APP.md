@@ -50,8 +50,9 @@ ionic 會在你的瀏覽器上顯示你現在這份APP的樣子
 參考資料 : [Jonny Huang 的學習筆記](https://jonny-huang.github.io/ionic/training/01_creating_first_project/)
 
 # 匯出 APK
+從 cmd 進入自己的專案後，輸入以下指令打包成 apk 檔
 
-
+       ionic cordova build --release android
 
 參考資料: [Publishing your app](https://ionicframework.com/docs/v1/guide/publishing.html)
 
