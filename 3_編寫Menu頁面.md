@@ -64,7 +64,7 @@ Ionic 已經幫我們設定好兩個連結
 
 
 \
-下一篇 : [連結 Firebase](5_連接Firebase.md)
+下一篇 : [連結 Firebase](4_連接Firebase.md)
 
 
 
