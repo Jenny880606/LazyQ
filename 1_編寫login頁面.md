@@ -26,4 +26,4 @@ type = "pssword" 的話，輸入的字會以 * 代替
 
 
 \
-下一篇 : [編寫 HOME 頁面](3_編寫home頁面.md)
+下一篇 : [編寫 HOME 頁面](2_編寫home頁面.md)
