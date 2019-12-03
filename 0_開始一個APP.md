@@ -70,7 +70,7 @@ ionic 會在你的瀏覽器上顯示你現在這份APP的樣子
 
 
 \
-下一篇 : [編寫 LOGIN 頁面](2_編寫login頁面.md)
+下一篇 : [編寫 LOGIN 頁面](1_編寫login頁面.md)
 
 
 
