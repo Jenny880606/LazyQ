@@ -2,7 +2,7 @@
 
 > code 編輯
 * 打開 /src/app/login/login.page.ts，設定 Firebase 需要的東西
-
+```js
       import { Component, OnInit } from '@angular/core';
       import { AngularFireAuth } from '@angular/fire/auth';
       import { auth } from 'firebase/app';
@@ -24,10 +24,10 @@
           public router: Router
         ) { }
       }
-      
+ ```     
       
 * 在 app 下面新增 user.service.ts
- 
+```js 
 	  import { AngularFireAuth } from '@angular/fire/auth'
 	  import { first } from 'rxjs/operators'
 	  import { auth } from 'firebase/app'
@@ -70,7 +70,7 @@
 			  return this.user.uid
 		  }
 	  }
- 
+``` 
      
 加了這個ts檔，之後在其他頁面都可以呼叫裡面的 function
 
@@ -82,7 +82,7 @@
 
  
 * 把下面這個 function 寫進 login.page.ts 裡面
-
+```js
       async login() {
             const { username, password } = this
             try {
@@ -101,7 +101,7 @@
                   }
             }
       }
-      
+ ```
  注意!!! 在這裡，帳號需要使用 username + '@lazyq.com' 喔~~
  
  因為 Firebase 裡面，帳號都是用信箱去判斷的
@@ -125,7 +125,7 @@
 * 點擊上方的《啟用》，再點擊《儲存》
  <img src="教程圖片/14.png" width="ˇ270px" height="200px">
  
- 
+\
 參考資料: [FirebaseDocs](https://firebase.google.com/docs?hl=zh-tw)      
 教學影片: [Firebase + ionic](https://www.youtube.com/watch?v=Q8zcieAWn3g&t=769s)
  
