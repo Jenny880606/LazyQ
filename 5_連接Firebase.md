@@ -111,6 +111,6 @@
  教學影片: [Firebase + ionic](https://www.youtube.com/watch?v=Q8zcieAWn3g&t=769s)
 
             
-  
-
+\
+下一篇 : [Firebase做帳號密碼管理](6_利用Firebase做帳號密碼管理.md)
 
