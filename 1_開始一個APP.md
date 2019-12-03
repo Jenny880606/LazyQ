@@ -53,6 +53,8 @@ ionic 會在你的瀏覽器上顯示你現在這份APP的樣子
 
 
 
+參考資料: [Publishing your app](https://ionicframework.com/docs/v1/guide/publishing.html)
+
 
 
 \
