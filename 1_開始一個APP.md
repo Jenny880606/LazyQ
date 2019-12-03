@@ -54,6 +54,9 @@ ionic 會在你的瀏覽器上顯示你現在這份APP的樣子
 
        ionic cordova build --release android
 
+
+<img src="教程圖片/inapk.png" width="ˇ250px" height="200px">
+
 參考資料: [Publishing your app](https://ionicframework.com/docs/v1/guide/publishing.html)
 
 
