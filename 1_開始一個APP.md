@@ -55,7 +55,15 @@ ionic 會在你的瀏覽器上顯示你現在這份APP的樣子
        ionic cordova build --release android
 
 
+下圖為輸入時，cmd在跑的樣子
+
 <img src="教程圖片/inapk.png" width="ˇ250px" height="200px">
+
+
+在跑完之後，下面紅色框框的部分為apk檔儲存的地方喔~
+
+<img src="教程圖片/outapk.png" width="ˇ250px" height="200px">
+
 
 參考資料: [Publishing your app](https://ionicframework.com/docs/v1/guide/publishing.html)
 
